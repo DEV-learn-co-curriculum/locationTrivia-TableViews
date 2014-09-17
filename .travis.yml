@@ -6,6 +6,8 @@ before_install:
   - brew upgrade xctool
   
 notifications:
-  webhooks: http://progress.flatironschool.com/submissions
+  webhooks: 
+    - http://progress.flatironschool.com/submissions
+    - http://staging.ironbroker.flatironschool.com/e/travis/build
 
 script: xctool -reporter json-stream -workspace locationTrivia-tableviews.xcworkspace -sdk iphonesimulator -destination "name=iPhone Retina (4-inch)" -scheme locationTrivia-tableviews build test
