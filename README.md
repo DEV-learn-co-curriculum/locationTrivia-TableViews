@@ -21,3 +21,5 @@ language: objc
 
   * Make multiple sections. Each section should represent an `FISLocation` with the header being the name property and each cell in it to be the different `FISTrivia` objects.
   * **this is hard** Allow for the reordering of Locations in your table.. [Some help](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/tableview_iphone/ManageReorderRow/ManageReorderRow.html)
+
+A change has been made.
