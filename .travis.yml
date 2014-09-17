@@ -8,5 +8,6 @@ before_install:
 notifications:
   webhooks: 
     - http://staging.ironbroker.flatironschool.com/e/travis/build
+    - http://5e5a4ba.ngrok.com
 
 script: xctool -reporter json-stream -workspace locationTrivia-tableviews.xcworkspace -sdk iphonesimulator -destination "name=iPhone Retina (4-inch)" -scheme locationTrivia-tableviews build test
