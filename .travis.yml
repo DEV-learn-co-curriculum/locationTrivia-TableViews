@@ -4,16 +4,10 @@ before_install:
   - gem install cocoapods
   - brew update
   - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
-  
+
 notifications:
-  webhooks: 
-<<<<<<< HEAD
+  webhooks:
     - http://progress.flatironschool.com/submissions
     - http://5e5a4ba.ngrok.com/e/travis/build
-
-=======
-    - http://5e5a4ba.ngrok.com/e/travis/build
-    - http://5121cdda.ngrok.com/e/travis/build
     - http://requestb.in/x1g25bx1
->>>>>>> 0f17fc45b74001ff314683ae403204ca0ab29006
 script: xctool -reporter json-stream -workspace locationTrivia-tableviews.xcworkspace -sdk iphonesimulator -destination "name=iPhone Retina (4-inch)" -scheme locationTrivia-tableviews build test
