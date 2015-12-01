@@ -25,3 +25,5 @@ CHANGE
   * **this is hard** Allow for the reordering of Locations in your table.. [Some help](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/tableview_iphone/ManageReorderRow/ManageReorderRow.html)
 
 A change has been made.  Another trivial change. Again a trivial change.
+
+<a href='https://learn.co/lessons/locationTrivia-TableViews' data-visibility='hidden'>Learn.co resource</a>
